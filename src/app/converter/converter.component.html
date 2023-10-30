@@ -1,0 +1,7 @@
+<div class="container">
+  <h1>Word Converter</h1>
+  <p>Enter any paragraph below and click on Convert button to see the result.</p>
+  <textarea [(ngModel)]="paragraph" rows="30" cols="50"></textarea>
+  <button (click)="convert()">Convert</button>
+  <textarea [(ngModel)]="result" rows="30" cols="80" readonly></textarea>
+</div>
